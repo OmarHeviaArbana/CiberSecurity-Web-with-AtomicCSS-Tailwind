@@ -1,0 +1,58 @@
+
+
+.navbar {
+  /* min-height:       100px;
+  padding-right:    14px;
+  padding-left:     2px;
+  background-color: $primary; */
+
+  /*   @container (min-width: 560px) {
+      padding-right: 14px;
+      padding-left:  14px;
+    }
+    @container (min-width: 1100px) {
+      padding-right: 34px;
+      padding-left:  34px;
+    }
+    @container (min-width: 1300px) {
+      padding-right: 70px;
+      padding-left:  70px;
+    } */
+
+/*   &__logo {
+    height:      43px;
+    padding-top: 3px;
+  } */
+ /*  &__toggler {
+    width:      24px;
+    background: none;
+    border:     none;
+      &:focus { box-shadow: none; }
+  } */
+/*   &__toogler-icon {
+    font-size:  24px;
+    color:      $white-color;
+    background: none;
+    border:     none;
+  } */
+  &__link {
+   /*  font-family: $font-family-principal;
+    font-size: 18px;
+    color:     $white-color;
+    &:hover { color: $secondary-color; }
+
+    @container (min-width: 843px) {
+      padding-right:  0;
+      padding-left:   0;
+      margin-left:    70px;
+    } */
+   /*  &--active {
+      border-bottom: 2px solid $secondary-color;
+      @container (max-width: 843px) { padding-bottom: 0; }
+    } */
+  }
+  /* &__list {
+    @container (min-width: 843px) { justify-content: flex-end; }
+  } */
+}
+

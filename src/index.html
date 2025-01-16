@@ -5,23 +5,84 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap" rel="stylesheet">
+    <title>Cibersecurity Summit 2024 - Inicio</title>
   </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
+  <body >
+    <header>
+        <nav class="flex items-center justify-between bg-primary min-h-[100px] pr-[14px] pl-[24px] xl:pr-[34px] xl:pl[-24px] xxl:pr-[70px] xxl:pl-[70px]" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="./index.html">
+              <img class="h-[43px] pt-[3px]" src="./assets/images/imagotipo-navbar.png" alt="Imagotipo de Cibersecurity Summit"/>
+          </a>
+          </div>
+          <div class="flex lg:hidden">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+              <svg class="size-8" fill="text-white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a href="#" class="font-secondary text-[18px] text-white hover:text-secondary px-0 md:pr-0 md:pl-0 md:ml-[50px]">Listado ponentes</a>
+            <a href="#" class="font-secondary text-[18px] text-white hover:text-secondary px-0 md:pr-0 md:pl-0 md:ml-[50px]">Sobre nosotros</a>
+            <a href="#" class="font-secondary text-[18px] text-white hover:text-secondary px-0 md:pr-0 md:pl-0 md:ml-[50px]">Inscripción</a>
+          </div>
+        </nav>
+    </header>
+    <main class="pt-[30px] px-[18px] pb[130px] md:pt-[40px] md:px-[30px] md:pb[150px] xl:px-[50px] xl:pb[170px] md:mx-[1%] xl:mx-[2%] xxl:mx-[3%]">
+        <div class="grid grid-rows-3 grid-cols-4 gap-0 ">
+            <div class="bloque-one row-start-1 row-end-2 col-start-1 col-end-4 self-center  md:justify-self-start md:self-end md:mb-0 md:col-end-4 xl:row-end-2">
+                <span class="font-principal text-[48px] font-bold leading-[50px] text-text-color xl:text-[70px] xl:leading-[74px]">Bienvenidos a las Jornadas de
+                    Seguridad Informática 2024</span>
+            </div>
+            <div class="row-start-2 row-end-3 col-start-1  col-end-5 md:col-end-4 mb-[40-px] mr-[40-px] md:mb-[50px] mt-[80px] md:mt-0 ">
+                <p class="font-secondary text-[20px] font-normal text-text-color xl:text-[30px]">
+                    Las Jornadas de Seguridad Informática 2024 son el punto de encuentro para profesionales, estudiantes y entusiastas de la ciberseguridad. Durante este evento, exploraremos los retos más recientes, compartiremos conocimientos innovadores y fortaleceremos las defensas digitales frente a las amenazas del mundo moderno.
+                </p>
+            </div>
+            <div class="row-start-2 row-end-2 md:row-start-1 md:row-end-2 col-start-4 col-end-5 justify-self-end self-start md:self-end md:justify-self-center md:origin-left-top md:rotate-[270deg]  flex xl:justify-self-start">
+                <span class="font-secondary text-[20px] font-bold text-primary text-left bg-secondary uppercase xl:text-[30px] p-[13px]  w-fit whitespace-nowrap ">Palacio de congresos de Gijón</span>
+            </div>
+            <div class="row-start-3 row-end-4 col-start-1 col-end-5 justify-self-start md:justify-self-center md:row-start-3 md:row-end-4  md:col-end-5 xl:row-end-4 xl:col-start-3 xl:col-end-7 ">
+                <img src="/src/assets/images/isotipo.png" alt="Isotipo de CiberSecurity Summit" class="w-[130px] h-[130px] mb-[50px] mt-[50px] md:mt-[0px] md:w-[160px] md:h-[160px] xl:w-[250px] xl:h-[250px] xl:mb-[70px]">
+            </div>
+            <div class="row-start-4 row-end-5 col-start-1 col-end-5 xl:col-start-1 xl:col-end-4 ">
+                <div class="bg-primary p-[2px]">
+                    <span class="font-secondary text-[16px] font-bold uppercase xl:text-[24px] text-white">Ponencias con expertos de seguridad</span>
+                </div>
+            </div>
+            <div class="row-start-6 row-end-7 col-start-1 col-end-5 xl:col-start-2 xl:col-end-5  mb-[50px] md:mb-[80px]">
+                <div class="bg-background p-[2px]">
+                    <span class="font-secondary text-[16px] font-bold uppercase xl:text-[24px] text-primary">Talleres especializados</span>
+                </div>
+            </div>
+          <div class="row-start-7 row-end-8 col-start-4 col-end-5 flex justify-end">
+            <div class="justify-self-end self-end ">
+                <div class="w-fit p-[8px] bg-secondary">
+                    <span class="font-secondary text-[20px] font-bold text-primary uppercase xl:text-[24px]">Entrada gratuita</span>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-self-end gap-[6px] w-fit h-[130px] p-[20px] bg-primary">
+                <div class="w-fit">
+                    <span class="font-secondary text-[30px] font-medium leading-[54px] text-white xl:text-[36px]">20</span>
+                    <div class="h-[2px] bg-white"></div>
+                    <span class="font-secondary text-[30px] font-medium leading-[54px] text-white xl:text-[36px]">21</span>
+                </div>
+                <div class="flex flex-col w-fit">
+                    <span class="font-secondary text-[30px] font-bold leading-[28px] text-white uppercase xl:text-[36px] xl:leading-[33px]">Dic</span>
+                    <span class="font-secondary text-[30px] font-bold leading-[28px] text-white uppercase xl:text-[36px] xl:leading-[33px]">iem</span>
+                    <span class="font-secondary text-[30px] font-bold leading-[28px] text-white uppercase xl:text-[36px] xl:leading-[33px]">bre</span>
+                </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>
+
