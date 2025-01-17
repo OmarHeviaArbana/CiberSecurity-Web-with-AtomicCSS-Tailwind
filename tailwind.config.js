@@ -17,28 +17,24 @@ module.exports = {
         secondary: ["Inter", "sans-serif"],
       },
       fontSize: {
-        "14": "0.87rem", // 14px
-        "16": "1rem",    // 16px
-        "18": "1.2rem",  // 18px
-        "20": "1.25rem", // 20px
-        "24": "1.5rem",  // 24px
-        "28": "1.75rem", // 28px
-        "30": "1.87rem", // 30px
-        "36": "2.25rem", // 36px
-        "48": "3rem",    // 48px
-        "70": "4.37rem", // 70px
+        "14": "0.87rem",
+        "16": "1rem",
+        "18": "1.2rem",
+        "20": "1.25rem",
+        "24": "1.5rem",
+        "28": "1.75rem",
+        "30": "1.87rem",
+        "36": "2.25rem",
+        "48": "3rem",
+        "70": "4.37rem",
       },
       screens: {
-        xs: "0px",       // Extra pequeño
-        sm: "390px",     // Pequeño
-        md: "600px",     // Mediano
-        lg: "900px",     // Grande
-        xl: "1200px",    // Extra grande
-        xxl: "1600px",   // Extra extra grande
+        sm: "390px",
+        md: "600px",
+        lg: "900px",
+        xl: "1200px",
+        xxl: "1600px",
       },
-      /* gridTemplateColumns: {
-        '3': '300px repeat(3, auto)',
-      } */
     },
   },
   plugins: [],

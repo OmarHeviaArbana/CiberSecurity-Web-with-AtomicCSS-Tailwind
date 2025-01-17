@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap" rel="stylesheet">
+    <title>Cibersecurity Summit 2024 - Listado Ponentes</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex items-center justify-between bg-primary min-h-[100px] pr-[14px] pl-[24px] xl:pr-[34px] xl:pl[-24px] xxl:pr-[70px] xxl:pl-[70px]" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="./index.html">
+            <img class="h-[43px] pt-[3px]" src="./assets/images/imagotipo-navbar.png" alt="Imagotipo de Cibersecurity Summit"/>
+        </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+            <svg class="size-8" fill="text-white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="/src/speakers.html" class="font-secondary text-[18px] text-white hover:text-secondary px-0 border-b-2 border-secondary md:pr-0 md:pl-0 md:ml-[50px]">Listado ponentes</a>
+          <a href="#" class="font-secondary text-[18px] text-white hover:text-secondary px-0 md:pr-0 md:pl-0 md:ml-[50px]">Sobre nosotros</a>
+          <a href="#" class="font-secondary text-[18px] text-white hover:text-secondary px-0 md:pr-0 md:pl-0 md:ml-[50px]">Inscripción</a>
+        </div>
+      </nav>
+  </header>
+    <main class="pt-[30px] pb-[130px] px-[18px] md:pt-[40px] md:px-[30px] xl:pb-[170px] xl:px-[50px]">
+      <include src="./views/title-page.html"></include>
+        <section class="flex flex-wrap gap-[30px] justify-center p-0 xl:gap-[40px] xl:justify-start">
+          <include src="./views/card-one.html" ></include>
+          <include src="./views/card-two.html" ></include>
+          <include src="./views/card-three.html" ></include>
+          <include src="./views/card-four.html" ></include>
+          <include src="./views/card-five.html" ></include>
+          <include src="./views/card-six.html" ></include>
+        </section>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
+</html>

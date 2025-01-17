@@ -1,0 +1,22 @@
+.card-container {
+  @apply flex flex-col md:flex-1 md:basis-[calc(50%-20px)] md:max-w-[calc(50%-20px)]
+         lg:basis-[calc(33.3%-30px)] lg:max-w-[calc(33.3%-30px)]
+         xl:basis-[calc(25%-30px)] xl:max-w-[calc(25%-30px)];
+}
+
+.card-image {
+  @apply w-[100%];
+}
+
+.card-content {
+  @apply p-[20px] bg-background h-[calc(100%)];
+}
+
+.card-title {
+  @apply font-principal mb-0 text-[24px] text-primary xl:text-[28px];
+}
+
+.card-description {
+  @apply font-secondary text-[18px] font-normal text-text xl:text-[20px] h-[calc(100%)];
+}
+
