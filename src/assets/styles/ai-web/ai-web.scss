@@ -1,0 +1,267 @@
+// Variables for Design Tokens
+$primary-color: #4CAF50;
+$secondary-color: #333;
+$background-color: #ffffff;
+$button-color: #000000;
+$button-text-color: #ffffff;
+$grayer-color: #a7a6a6;
+$card-shadow-color: rgba(87, 87, 87, 0.1);
+
+// Fonts
+$font-principal: 'Arial', sans-serif;
+$font-secondary: 'Georgia', serif;
+
+
+body {
+  font-family: $font-principal;
+  background-color: #fff;
+  color: $secondary-color;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $background-color;
+  color: $secondary-color;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+
+  .title {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .navbar {
+    .nav-list {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      li {
+        list-style: none;
+        a {
+          color: $secondary-color;
+          font-weight: 400;
+          text-decoration: none;
+          margin-right: 20px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .cta-button {
+          background-color: $button-color;
+          color: $button-text-color;
+          font-size: 1rem;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+
+          &:hover {
+            background-color: darken($button-color, 10%);
+            transform: translateY(-2px);
+          }
+        }
+      }
+    }
+  }
+}
+
+.intro-section {
+  margin-top: 30px;
+  margin-bottom: 120px;
+
+  .intro-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $button-color;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .intro-subtitle {
+    font-size: 1.2rem;
+    color: $grayer-color;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+}
+
+// Hero Section
+.hero-section {
+  text-align: center;
+  margin: 20px auto;
+  padding: 0 60px;
+
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+#recipes {
+  padding:  40px 60px 80px;
+  .section-title {
+    font-size: 1.75rem;
+    color: $secondary-color;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: $grayer-color;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+
+    .card {
+      flex: 1;
+      max-width: calc(33.333% - 20px);
+      background: $background-color;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 6px 12px $card-shadow-color, 0 -0.5px 12px $card-shadow-color;
+      text-align: left;
+
+      .card-content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 30px;
+
+        .card-image {
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .card-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left;
+
+          p {
+            font-size: 100%;
+          }
+
+          p:first-of-type {
+            margin-bottom: 0;
+           font-weight: 600;
+          }
+
+          p:last-of-type {
+            margin: 0;
+            color: lighten($secondary-color, 20%);
+          }
+        }
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+
+.footer {
+  background-color: #ffffff;
+  color: $secondary-color;
+  font-size: 0.63rem;
+  padding: 20px 0px;
+  margin: 0 60px;
+  border-top: 0.5px solid #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: normal;
+      color: $secondary-color;
+      margin-bottom: 20px;
+      width: max-content;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 30px;
+      .social-icon {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        filter: grayscale(100%)
+      }
+    }
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      color: $secondary-color;
+      margin-bottom: 20px;
+    }
+
+    .footer-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 20px;
+        font-size: 1rem;
+      }
+    }
+  }
+}
