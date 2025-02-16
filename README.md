@@ -1,7 +1,5 @@
 # Cibersecurity Summit 2025 site - Tailwind
 
-<image style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" src="src/assets/images/miniatura.png" alt="Turismo Asturias Rutas al paraiso landing page">
-
 ## Link
 
 https://cibersecuritysummit-tw.netlify.app
@@ -11,6 +9,7 @@ https://cibersecuritysummit-tw.netlify.app
 Prototipo web dedicado a un evento orientado a la seguridad informática y otras actividades. Se utiliza para probar características de Atomic CSS y Tailwind.
 
 **Autor:** Omar Hevia Arbana
+
 **Fecha:** In process ...
 
 ---
@@ -22,6 +21,7 @@ Prototipo web dedicado a un evento orientado a la seguridad informática y otras
 Web prototype dedicated to an event focused on cybersecurity and other activities. It is used to test new features of Atomic CSS and Tailwind.
 
 **Author:** Omar Hevia Arbana
+
 **Date:** In process ...
 
 ---
